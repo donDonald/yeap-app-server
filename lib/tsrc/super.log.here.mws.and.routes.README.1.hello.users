@@ -1,0 +1,240 @@
+
+
+  lib.Application
+    Close unopen app
+      ✓ #Application.close
+    Open app and close it
+[32m[1m2020-03-05T07:24:13.223Z[0m[0m [Application][setup] [42m[34m info   [0m[0m [32m[1mLoading libraries...[0m[0m
+[32m[1m2020-03-05T07:24:13.223Z[0m[0m [Application][setup] [42m[34m info   [0m[0m [32m[1mLoading libraries is complete[0m[0m
+[32m[1m2020-03-05T07:24:13.223Z[0m[0m [Application][setup] [42m[34m info   [0m[0m [32m[1mLoading places...[0m[0m
+[37m2020-03-05T07:24:13.223Z[0m [Application][setup] [47m[30m debug  [0m[0m [37mloadPlaces, path:/home/ptaranov/Downloads/auth-server/src/lib/tsrc/app1/config[0m
+[37m2020-03-05T07:24:13.224Z[0m [Application][setup] [47m[30m debug  [0m[0m [37mloadFiles, path:config/.application.js.swp[0m
+[37m2020-03-05T07:24:13.224Z[0m [Application][setup] [47m[30m debug  [0m[0m [37mloadFiles, path:config/README.md[0m
+[37m2020-03-05T07:24:13.224Z[0m [Application][setup] [47m[30m debug  [0m[0m [37mloadFiles, path:config/application.js[0m
+[37m2020-03-05T07:24:13.224Z[0m [Application][setup] [47m[30m debug  [0m[0m [37mloadFiles, path:config/databases.js[0m
+[37m2020-03-05T07:24:13.225Z[0m [Application][setup] [47m[30m debug  [0m[0m [37mloadFiles, path:config/log.js[0m
+[37m2020-03-05T07:24:13.225Z[0m [Application][setup] [47m[30m debug  [0m[0m [37mloadFiles, path:config/session.js[0m
+[32m[1m2020-03-05T07:24:13.225Z[0m[0m [Application][setup] [42m[34m info   [0m[0m [32m[1mLoading places is complete[0m[0m
+[32m[1m2020-03-05T07:24:13.226Z[0m[0m [Application][setup] [42m[34m info   [0m[0m [32m[1mLoading places is complete[0m[0m
+[32m[1m2020-03-05T07:24:13.226Z[0m[0m [Application][setup] [42m[34m info   [0m[0m [32m[1mOpening logger...[0m[0m
+[32m[1m2020-03-05T07:24:13.228Z[0m[0m [Application][setup] [42m[34m info   [0m[0m [32m[1mOpening logger is complete[0m[0m
+[32m[1m2020-03-05T07:24:13.229Z[0m[0m [Application][setup] [42m[34m info   [0m[0m [32m[1mCreating app impl(express)...[0m[0m
+[32m[1m2020-03-05T07:24:13.235Z[0m[0m [Application][setup] [42m[34m info   [0m[0m [32m[1mSession secret is set, initializing session MW...[0m[0m
+[32m[1m2020-03-05T07:24:13.235Z[0m[0m [Application][setup] [42m[34m info   [0m[0m [32m[1msession key:app1secret[0m[0m
+[32m[1m2020-03-05T07:24:13.235Z[0m[0m [Application][setup] [42m[34m info   [0m[0m [32m[1msession age:86400000[0m[0m
+[32m[1m2020-03-05T07:24:13.239Z[0m[0m [Application][setup] [42m[34m info   [0m[0m [32m[1mSession secret is set, initializing session MW is complete[0m[0m
+[32m[1m2020-03-05T07:24:13.245Z[0m[0m [Application][setup] [42m[34m info   [0m[0m [32m[1mCreating app impl(express) is complete[0m[0m
+[32m[1m2020-03-05T07:24:13.245Z[0m[0m [Application][setup] [42m[34m info   [0m[0m [32m[1mLoading model...[0m[0m
+[32m[1m2020-03-05T07:24:13.245Z[0m[0m [Application][setup] [42m[34m info   [0m[0m [32m[1mLoading model is complete[0m[0m
+[32m[1m2020-03-05T07:24:13.245Z[0m[0m [Application][setup] [42m[34m info   [0m[0m [32m[1mLoading routes...[0m[0m
+[32m[1m2020-03-05T07:24:13.246Z[0m[0m [42m[34m info   [0m[0m [32m[1mCollected routes:[0m[0m
+[32m[1m2020-03-05T07:24:13.247Z[0m[0m [42m[34m info   [0m[0m [32m[1m    method:GET    , access:SET, rules:   , url:/[0m[0m
+[32m[1m2020-03-05T07:24:13.248Z[0m[0m [42m[34m info   [0m[0m [32m[1m    method:GET    , access:SET, rules:   , url:/hello[0m[0m
+[32m[1m2020-03-05T07:24:13.248Z[0m[0m [42m[34m info   [0m[0m [32m[1m    method:GET    , access:SET, rules:   , url:/news[0m[0m
+[32m[1m2020-03-05T07:24:13.248Z[0m[0m [Application][setup] [42m[34m info   [0m[0m [32m[1mLoading routes is complete[0m[0m
+[32m[1m2020-03-05T07:24:13.254Z[0m[0m [Application][setup] [42m[34m info   [0m[0m [32m[1mStart listening port 3001[0m[0m
+[32m[1m2020-03-05T07:24:13.254Z[0m[0m [Application][setup] [42m[34m info   [0m[0m [32m[1mOpening application is complete[0m[0m
+      ✓ #Application.open (53ms)
+      ✓ #Verify app.config
+      ✓ #Verify logger
+      ✓ #Verify model
+[ [ 'GET', '/' ], [ 'GET', '/hello' ], [ 'GET', '/news' ] ]
+      ✓ #Verify routes
+[32m[1m2020-03-05T07:24:13.257Z[0m[0m [Application][teardown] [42m[34m info   [0m[0m [32m[1mClosing...[0m[0m
+[32m[1m2020-03-05T07:24:13.257Z[0m[0m [Application][teardown] [42m[34m info   [0m[0m [32m[1mStop listening...[0m[0m
+[32m[1m2020-03-05T07:24:13.257Z[0m[0m [Application][teardown] [42m[34m info   [0m[0m [32m[1mStop listening port 3001[0m[0m
+[32m[1m2020-03-05T07:24:13.257Z[0m[0m [Application][teardown] [42m[34m info   [0m[0m [32m[1mUnloading routes...[0m[0m
+[32m[1m2020-03-05T07:24:13.257Z[0m[0m [Application][teardown] [42m[34m info   [0m[0m [32m[1mUnloading routes is complete[0m[0m
+[32m[1m2020-03-05T07:24:13.258Z[0m[0m [Application][teardown] [42m[34m info   [0m[0m [32m[1mUnloading model...[0m[0m
+[32m[1m2020-03-05T07:24:13.258Z[0m[0m [Application][teardown] [42m[34m info   [0m[0m [32m[1mUnloading model is complete[0m[0m
+[32m[1m2020-03-05T07:24:13.258Z[0m[0m [Application][teardown] [42m[34m info   [0m[0m [32m[1mDestroying app impl(express)...[0m[0m
+[32m[1m2020-03-05T07:24:13.258Z[0m[0m [Application][teardown] [42m[34m info   [0m[0m [32m[1mDestroying app impl(express)...[0m[0m
+[32m[1m2020-03-05T07:24:13.258Z[0m[0m [Application][teardown] [42m[34m info   [0m[0m [32m[1mClosing logger...[0m[0m
+[32m[1m2020-03-05T07:24:13.260Z[0m[0m [Application][teardown] [42m[34m info   [0m[0m [32m[1mClosing logger is complete[0m[0m
+[32m[1m2020-03-05T07:24:13.260Z[0m[0m [Application][teardown] [42m[34m info   [0m[0m [32m[1mClosing is complete[0m[0m
+      ✓ #Application.close
+    Open app for many times
+[32m[1m2020-03-05T07:24:13.261Z[0m[0m [Application][setup] [42m[34m info   [0m[0m [32m[1mLoading libraries...[0m[0m
+[32m[1m2020-03-05T07:24:13.261Z[0m[0m [Application][setup] [42m[34m info   [0m[0m [32m[1mLoading libraries is complete[0m[0m
+[32m[1m2020-03-05T07:24:13.261Z[0m[0m [Application][setup] [42m[34m info   [0m[0m [32m[1mLoading places...[0m[0m
+[37m2020-03-05T07:24:13.261Z[0m [Application][setup] [47m[30m debug  [0m[0m [37mloadPlaces, path:/home/ptaranov/Downloads/auth-server/src/lib/tsrc/app1/config[0m
+[37m2020-03-05T07:24:13.261Z[0m [Application][setup] [47m[30m debug  [0m[0m [37mloadFiles, path:config/.application.js.swp[0m
+[37m2020-03-05T07:24:13.262Z[0m [Application][setup] [47m[30m debug  [0m[0m [37mloadFiles, path:config/README.md[0m
+[37m2020-03-05T07:24:13.262Z[0m [Application][setup] [47m[30m debug  [0m[0m [37mloadFiles, path:config/application.js[0m
+[37m2020-03-05T07:24:13.262Z[0m [Application][setup] [47m[30m debug  [0m[0m [37mloadFiles, path:config/databases.js[0m
+[37m2020-03-05T07:24:13.262Z[0m [Application][setup] [47m[30m debug  [0m[0m [37mloadFiles, path:config/log.js[0m
+[37m2020-03-05T07:24:13.262Z[0m [Application][setup] [47m[30m debug  [0m[0m [37mloadFiles, path:config/session.js[0m
+[32m[1m2020-03-05T07:24:13.262Z[0m[0m [Application][setup] [42m[34m info   [0m[0m [32m[1mLoading places is complete[0m[0m
+[32m[1m2020-03-05T07:24:13.262Z[0m[0m [Application][setup] [42m[34m info   [0m[0m [32m[1mLoading places is complete[0m[0m
+[32m[1m2020-03-05T07:24:13.262Z[0m[0m [Application][setup] [42m[34m info   [0m[0m [32m[1mOpening logger...[0m[0m
+[32m[1m2020-03-05T07:24:13.263Z[0m[0m [Application][setup] [42m[34m info   [0m[0m [32m[1mOpening logger is complete[0m[0m
+[32m[1m2020-03-05T07:24:13.264Z[0m[0m [Application][setup] [42m[34m info   [0m[0m [32m[1mCreating app impl(express)...[0m[0m
+[32m[1m2020-03-05T07:24:13.265Z[0m[0m [Application][setup] [42m[34m info   [0m[0m [32m[1mSession secret is set, initializing session MW...[0m[0m
+[32m[1m2020-03-05T07:24:13.265Z[0m[0m [Application][setup] [42m[34m info   [0m[0m [32m[1msession key:app1secret[0m[0m
+[32m[1m2020-03-05T07:24:13.265Z[0m[0m [Application][setup] [42m[34m info   [0m[0m [32m[1msession age:86400000[0m[0m
+[32m[1m2020-03-05T07:24:13.266Z[0m[0m [Application][setup] [42m[34m info   [0m[0m [32m[1mSession secret is set, initializing session MW is complete[0m[0m
+[32m[1m2020-03-05T07:24:13.266Z[0m[0m [Application][setup] [42m[34m info   [0m[0m [32m[1mCreating app impl(express) is complete[0m[0m
+[32m[1m2020-03-05T07:24:13.266Z[0m[0m [Application][setup] [42m[34m info   [0m[0m [32m[1mLoading model...[0m[0m
+[32m[1m2020-03-05T07:24:13.266Z[0m[0m [Application][setup] [42m[34m info   [0m[0m [32m[1mLoading model is complete[0m[0m
+[32m[1m2020-03-05T07:24:13.266Z[0m[0m [Application][setup] [42m[34m info   [0m[0m [32m[1mLoading routes...[0m[0m
+[32m[1m2020-03-05T07:24:13.267Z[0m[0m [42m[34m info   [0m[0m [32m[1mCollected routes:[0m[0m
+[32m[1m2020-03-05T07:24:13.267Z[0m[0m [42m[34m info   [0m[0m [32m[1m    method:GET    , access:SET, rules:   , url:/[0m[0m
+[32m[1m2020-03-05T07:24:13.268Z[0m[0m [42m[34m info   [0m[0m [32m[1m    method:GET    , access:SET, rules:   , url:/hello[0m[0m
+[32m[1m2020-03-05T07:24:13.268Z[0m[0m [42m[34m info   [0m[0m [32m[1m    method:GET    , access:SET, rules:   , url:/news[0m[0m
+[32m[1m2020-03-05T07:24:13.268Z[0m[0m [Application][setup] [42m[34m info   [0m[0m [32m[1mLoading routes is complete[0m[0m
+[32m[1m2020-03-05T07:24:13.268Z[0m[0m [Application][setup] [42m[34m info   [0m[0m [32m[1mStart listening port 3001[0m[0m
+[32m[1m2020-03-05T07:24:13.268Z[0m[0m [Application][setup] [42m[34m info   [0m[0m [32m[1mOpening application is complete[0m[0m
+      ✓ #Application.open, 1st time
+[31m2020-03-05T07:24:13.269Z[0m [Application][setup] [41m[30m error  [0m[0m [31mApplication is already open[0m
+      ✓ #Application.open, 2nd time
+[31m2020-03-05T07:24:13.270Z[0m [Application][setup] [41m[30m error  [0m[0m [31mApplication is already open[0m
+      ✓ #Application.open, 3rd time
+[32m[1m2020-03-05T07:24:13.271Z[0m[0m [Application][teardown] [42m[34m info   [0m[0m [32m[1mClosing...[0m[0m
+[32m[1m2020-03-05T07:24:13.271Z[0m[0m [Application][teardown] [42m[34m info   [0m[0m [32m[1mStop listening...[0m[0m
+[32m[1m2020-03-05T07:24:13.271Z[0m[0m [Application][teardown] [42m[34m info   [0m[0m [32m[1mStop listening port 3001[0m[0m
+[32m[1m2020-03-05T07:24:13.272Z[0m[0m [Application][teardown] [42m[34m info   [0m[0m [32m[1mUnloading routes...[0m[0m
+[32m[1m2020-03-05T07:24:13.272Z[0m[0m [Application][teardown] [42m[34m info   [0m[0m [32m[1mUnloading routes is complete[0m[0m
+[32m[1m2020-03-05T07:24:13.272Z[0m[0m [Application][teardown] [42m[34m info   [0m[0m [32m[1mUnloading model...[0m[0m
+[32m[1m2020-03-05T07:24:13.272Z[0m[0m [Application][teardown] [42m[34m info   [0m[0m [32m[1mUnloading model is complete[0m[0m
+[32m[1m2020-03-05T07:24:13.273Z[0m[0m [Application][teardown] [42m[34m info   [0m[0m [32m[1mDestroying app impl(express)...[0m[0m
+[32m[1m2020-03-05T07:24:13.273Z[0m[0m [Application][teardown] [42m[34m info   [0m[0m [32m[1mDestroying app impl(express)...[0m[0m
+[32m[1m2020-03-05T07:24:13.273Z[0m[0m [Application][teardown] [42m[34m info   [0m[0m [32m[1mClosing logger...[0m[0m
+[32m[1m2020-03-05T07:24:13.273Z[0m[0m [Application][teardown] [42m[34m info   [0m[0m [32m[1mClosing logger is complete[0m[0m
+[32m[1m2020-03-05T07:24:13.273Z[0m[0m [Application][teardown] [42m[34m info   [0m[0m [32m[1mClosing is complete[0m[0m
+    Open/close app for many times
+[32m[1m2020-03-05T07:24:13.274Z[0m[0m [Application][setup] [42m[34m info   [0m[0m [32m[1mLoading libraries...[0m[0m
+[32m[1m2020-03-05T07:24:13.274Z[0m[0m [Application][setup] [42m[34m info   [0m[0m [32m[1mLoading libraries is complete[0m[0m
+[32m[1m2020-03-05T07:24:13.274Z[0m[0m [Application][setup] [42m[34m info   [0m[0m [32m[1mLoading places...[0m[0m
+[37m2020-03-05T07:24:13.274Z[0m [Application][setup] [47m[30m debug  [0m[0m [37mloadPlaces, path:/home/ptaranov/Downloads/auth-server/src/lib/tsrc/app1/config[0m
+[37m2020-03-05T07:24:13.274Z[0m [Application][setup] [47m[30m debug  [0m[0m [37mloadFiles, path:config/.application.js.swp[0m
+[37m2020-03-05T07:24:13.274Z[0m [Application][setup] [47m[30m debug  [0m[0m [37mloadFiles, path:config/README.md[0m
+[37m2020-03-05T07:24:13.274Z[0m [Application][setup] [47m[30m debug  [0m[0m [37mloadFiles, path:config/application.js[0m
+[37m2020-03-05T07:24:13.274Z[0m [Application][setup] [47m[30m debug  [0m[0m [37mloadFiles, path:config/databases.js[0m
+[37m2020-03-05T07:24:13.274Z[0m [Application][setup] [47m[30m debug  [0m[0m [37mloadFiles, path:config/log.js[0m
+[37m2020-03-05T07:24:13.275Z[0m [Application][setup] [47m[30m debug  [0m[0m [37mloadFiles, path:config/session.js[0m
+[32m[1m2020-03-05T07:24:13.275Z[0m[0m [Application][setup] [42m[34m info   [0m[0m [32m[1mLoading places is complete[0m[0m
+[32m[1m2020-03-05T07:24:13.275Z[0m[0m [Application][setup] [42m[34m info   [0m[0m [32m[1mLoading places is complete[0m[0m
+[32m[1m2020-03-05T07:24:13.275Z[0m[0m [Application][setup] [42m[34m info   [0m[0m [32m[1mOpening logger...[0m[0m
+[32m[1m2020-03-05T07:24:13.275Z[0m[0m [Application][setup] [42m[34m info   [0m[0m [32m[1mOpening logger is complete[0m[0m
+[32m[1m2020-03-05T07:24:13.275Z[0m[0m [Application][setup] [42m[34m info   [0m[0m [32m[1mCreating app impl(express)...[0m[0m
+[32m[1m2020-03-05T07:24:13.275Z[0m[0m [Application][setup] [42m[34m info   [0m[0m [32m[1mSession secret is set, initializing session MW...[0m[0m
+[32m[1m2020-03-05T07:24:13.275Z[0m[0m [Application][setup] [42m[34m info   [0m[0m [32m[1msession key:app1secret[0m[0m
+[32m[1m2020-03-05T07:24:13.275Z[0m[0m [Application][setup] [42m[34m info   [0m[0m [32m[1msession age:86400000[0m[0m
+[32m[1m2020-03-05T07:24:13.275Z[0m[0m [Application][setup] [42m[34m info   [0m[0m [32m[1mSession secret is set, initializing session MW is complete[0m[0m
+[32m[1m2020-03-05T07:24:13.276Z[0m[0m [Application][setup] [42m[34m info   [0m[0m [32m[1mCreating app impl(express) is complete[0m[0m
+[32m[1m2020-03-05T07:24:13.276Z[0m[0m [Application][setup] [42m[34m info   [0m[0m [32m[1mLoading model...[0m[0m
+[32m[1m2020-03-05T07:24:13.276Z[0m[0m [Application][setup] [42m[34m info   [0m[0m [32m[1mLoading model is complete[0m[0m
+[32m[1m2020-03-05T07:24:13.276Z[0m[0m [Application][setup] [42m[34m info   [0m[0m [32m[1mLoading routes...[0m[0m
+[32m[1m2020-03-05T07:24:13.276Z[0m[0m [42m[34m info   [0m[0m [32m[1mCollected routes:[0m[0m
+[32m[1m2020-03-05T07:24:13.276Z[0m[0m [42m[34m info   [0m[0m [32m[1m    method:GET    , access:SET, rules:   , url:/[0m[0m
+[32m[1m2020-03-05T07:24:13.276Z[0m[0m [42m[34m info   [0m[0m [32m[1m    method:GET    , access:SET, rules:   , url:/hello[0m[0m
+[32m[1m2020-03-05T07:24:13.276Z[0m[0m [42m[34m info   [0m[0m [32m[1m    method:GET    , access:SET, rules:   , url:/news[0m[0m
+[32m[1m2020-03-05T07:24:13.276Z[0m[0m [Application][setup] [42m[34m info   [0m[0m [32m[1mLoading routes is complete[0m[0m
+[32m[1m2020-03-05T07:24:13.276Z[0m[0m [Application][setup] [42m[34m info   [0m[0m [32m[1mStart listening port 3001[0m[0m
+[32m[1m2020-03-05T07:24:13.277Z[0m[0m [Application][setup] [42m[34m info   [0m[0m [32m[1mOpening application is complete[0m[0m
+      ✓ #Application.open, 1st time
+[32m[1m2020-03-05T07:24:13.277Z[0m[0m [Application][teardown] [42m[34m info   [0m[0m [32m[1mClosing...[0m[0m
+[32m[1m2020-03-05T07:24:13.277Z[0m[0m [Application][teardown] [42m[34m info   [0m[0m [32m[1mStop listening...[0m[0m
+[32m[1m2020-03-05T07:24:13.277Z[0m[0m [Application][teardown] [42m[34m info   [0m[0m [32m[1mStop listening port 3001[0m[0m
+[32m[1m2020-03-05T07:24:13.277Z[0m[0m [Application][teardown] [42m[34m info   [0m[0m [32m[1mUnloading routes...[0m[0m
+[32m[1m2020-03-05T07:24:13.277Z[0m[0m [Application][teardown] [42m[34m info   [0m[0m [32m[1mUnloading routes is complete[0m[0m
+[32m[1m2020-03-05T07:24:13.277Z[0m[0m [Application][teardown] [42m[34m info   [0m[0m [32m[1mUnloading model...[0m[0m
+[32m[1m2020-03-05T07:24:13.277Z[0m[0m [Application][teardown] [42m[34m info   [0m[0m [32m[1mUnloading model is complete[0m[0m
+[32m[1m2020-03-05T07:24:13.277Z[0m[0m [Application][teardown] [42m[34m info   [0m[0m [32m[1mDestroying app impl(express)...[0m[0m
+[32m[1m2020-03-05T07:24:13.277Z[0m[0m [Application][teardown] [42m[34m info   [0m[0m [32m[1mDestroying app impl(express)...[0m[0m
+[32m[1m2020-03-05T07:24:13.277Z[0m[0m [Application][teardown] [42m[34m info   [0m[0m [32m[1mClosing logger...[0m[0m
+[32m[1m2020-03-05T07:24:13.278Z[0m[0m [Application][teardown] [42m[34m info   [0m[0m [32m[1mClosing logger is complete[0m[0m
+[32m[1m2020-03-05T07:24:13.278Z[0m[0m [Application][teardown] [42m[34m info   [0m[0m [32m[1mClosing is complete[0m[0m
+      ✓ #Application.close
+[32m[1m2020-03-05T07:24:13.278Z[0m[0m [Application][setup] [42m[34m info   [0m[0m [32m[1mLoading libraries...[0m[0m
+[32m[1m2020-03-05T07:24:13.278Z[0m[0m [Application][setup] [42m[34m info   [0m[0m [32m[1mLoading libraries is complete[0m[0m
+[32m[1m2020-03-05T07:24:13.278Z[0m[0m [Application][setup] [42m[34m info   [0m[0m [32m[1mLoading places...[0m[0m
+[37m2020-03-05T07:24:13.278Z[0m [Application][setup] [47m[30m debug  [0m[0m [37mloadPlaces, path:/home/ptaranov/Downloads/auth-server/src/lib/tsrc/app1/config[0m
+[37m2020-03-05T07:24:13.278Z[0m [Application][setup] [47m[30m debug  [0m[0m [37mloadFiles, path:config/.application.js.swp[0m
+[37m2020-03-05T07:24:13.278Z[0m [Application][setup] [47m[30m debug  [0m[0m [37mloadFiles, path:config/README.md[0m
+[37m2020-03-05T07:24:13.278Z[0m [Application][setup] [47m[30m debug  [0m[0m [37mloadFiles, path:config/application.js[0m
+[37m2020-03-05T07:24:13.279Z[0m [Application][setup] [47m[30m debug  [0m[0m [37mloadFiles, path:config/databases.js[0m
+[37m2020-03-05T07:24:13.279Z[0m [Application][setup] [47m[30m debug  [0m[0m [37mloadFiles, path:config/log.js[0m
+[37m2020-03-05T07:24:13.279Z[0m [Application][setup] [47m[30m debug  [0m[0m [37mloadFiles, path:config/session.js[0m
+[32m[1m2020-03-05T07:24:13.279Z[0m[0m [Application][setup] [42m[34m info   [0m[0m [32m[1mLoading places is complete[0m[0m
+[32m[1m2020-03-05T07:24:13.279Z[0m[0m [Application][setup] [42m[34m info   [0m[0m [32m[1mLoading places is complete[0m[0m
+[32m[1m2020-03-05T07:24:13.279Z[0m[0m [Application][setup] [42m[34m info   [0m[0m [32m[1mOpening logger...[0m[0m
+[32m[1m2020-03-05T07:24:13.279Z[0m[0m [Application][setup] [42m[34m info   [0m[0m [32m[1mOpening logger is complete[0m[0m
+[32m[1m2020-03-05T07:24:13.279Z[0m[0m [Application][setup] [42m[34m info   [0m[0m [32m[1mCreating app impl(express)...[0m[0m
+[32m[1m2020-03-05T07:24:13.279Z[0m[0m [Application][setup] [42m[34m info   [0m[0m [32m[1mSession secret is set, initializing session MW...[0m[0m
+[32m[1m2020-03-05T07:24:13.279Z[0m[0m [Application][setup] [42m[34m info   [0m[0m [32m[1msession key:app1secret[0m[0m
+[32m[1m2020-03-05T07:24:13.279Z[0m[0m [Application][setup] [42m[34m info   [0m[0m [32m[1msession age:86400000[0m[0m
+[32m[1m2020-03-05T07:24:13.280Z[0m[0m [Application][setup] [42m[34m info   [0m[0m [32m[1mSession secret is set, initializing session MW is complete[0m[0m
+[32m[1m2020-03-05T07:24:13.280Z[0m[0m [Application][setup] [42m[34m info   [0m[0m [32m[1mCreating app impl(express) is complete[0m[0m
+[32m[1m2020-03-05T07:24:13.280Z[0m[0m [Application][setup] [42m[34m info   [0m[0m [32m[1mLoading model...[0m[0m
+[32m[1m2020-03-05T07:24:13.280Z[0m[0m [Application][setup] [42m[34m info   [0m[0m [32m[1mLoading model is complete[0m[0m
+[32m[1m2020-03-05T07:24:13.280Z[0m[0m [Application][setup] [42m[34m info   [0m[0m [32m[1mLoading routes...[0m[0m
+[32m[1m2020-03-05T07:24:13.280Z[0m[0m [42m[34m info   [0m[0m [32m[1mCollected routes:[0m[0m
+[32m[1m2020-03-05T07:24:13.280Z[0m[0m [42m[34m info   [0m[0m [32m[1m    method:GET    , access:SET, rules:   , url:/[0m[0m
+[32m[1m2020-03-05T07:24:13.280Z[0m[0m [42m[34m info   [0m[0m [32m[1m    method:GET    , access:SET, rules:   , url:/hello[0m[0m
+[32m[1m2020-03-05T07:24:13.280Z[0m[0m [42m[34m info   [0m[0m [32m[1m    method:GET    , access:SET, rules:   , url:/news[0m[0m
+[32m[1m2020-03-05T07:24:13.280Z[0m[0m [Application][setup] [42m[34m info   [0m[0m [32m[1mLoading routes is complete[0m[0m
+[32m[1m2020-03-05T07:24:13.281Z[0m[0m [Application][setup] [42m[34m info   [0m[0m [32m[1mStart listening port 3001[0m[0m
+[32m[1m2020-03-05T07:24:13.281Z[0m[0m [Application][setup] [42m[34m info   [0m[0m [32m[1mOpening application is complete[0m[0m
+      ✓ #Application.open, 2nd time
+[32m[1m2020-03-05T07:24:13.281Z[0m[0m [Application][teardown] [42m[34m info   [0m[0m [32m[1mClosing...[0m[0m
+[32m[1m2020-03-05T07:24:13.281Z[0m[0m [Application][teardown] [42m[34m info   [0m[0m [32m[1mStop listening...[0m[0m
+[32m[1m2020-03-05T07:24:13.281Z[0m[0m [Application][teardown] [42m[34m info   [0m[0m [32m[1mStop listening port 3001[0m[0m
+[32m[1m2020-03-05T07:24:13.281Z[0m[0m [Application][teardown] [42m[34m info   [0m[0m [32m[1mUnloading routes...[0m[0m
+[32m[1m2020-03-05T07:24:13.281Z[0m[0m [Application][teardown] [42m[34m info   [0m[0m [32m[1mUnloading routes is complete[0m[0m
+[32m[1m2020-03-05T07:24:13.281Z[0m[0m [Application][teardown] [42m[34m info   [0m[0m [32m[1mUnloading model...[0m[0m
+[32m[1m2020-03-05T07:24:13.281Z[0m[0m [Application][teardown] [42m[34m info   [0m[0m [32m[1mUnloading model is complete[0m[0m
+[32m[1m2020-03-05T07:24:13.281Z[0m[0m [Application][teardown] [42m[34m info   [0m[0m [32m[1mDestroying app impl(express)...[0m[0m
+[32m[1m2020-03-05T07:24:13.281Z[0m[0m [Application][teardown] [42m[34m info   [0m[0m [32m[1mDestroying app impl(express)...[0m[0m
+[32m[1m2020-03-05T07:24:13.281Z[0m[0m [Application][teardown] [42m[34m info   [0m[0m [32m[1mClosing logger...[0m[0m
+[32m[1m2020-03-05T07:24:13.282Z[0m[0m [Application][teardown] [42m[34m info   [0m[0m [32m[1mClosing logger is complete[0m[0m
+[32m[1m2020-03-05T07:24:13.282Z[0m[0m [Application][teardown] [42m[34m info   [0m[0m [32m[1mClosing is complete[0m[0m
+      ✓ #Application.close
+[32m[1m2020-03-05T07:24:13.282Z[0m[0m [Application][setup] [42m[34m info   [0m[0m [32m[1mLoading libraries...[0m[0m
+[32m[1m2020-03-05T07:24:13.282Z[0m[0m [Application][setup] [42m[34m info   [0m[0m [32m[1mLoading libraries is complete[0m[0m
+[32m[1m2020-03-05T07:24:13.282Z[0m[0m [Application][setup] [42m[34m info   [0m[0m [32m[1mLoading places...[0m[0m
+[37m2020-03-05T07:24:13.282Z[0m [Application][setup] [47m[30m debug  [0m[0m [37mloadPlaces, path:/home/ptaranov/Downloads/auth-server/src/lib/tsrc/app1/config[0m
+[37m2020-03-05T07:24:13.283Z[0m [Application][setup] [47m[30m debug  [0m[0m [37mloadFiles, path:config/.application.js.swp[0m
+[37m2020-03-05T07:24:13.283Z[0m [Application][setup] [47m[30m debug  [0m[0m [37mloadFiles, path:config/README.md[0m
+[37m2020-03-05T07:24:13.283Z[0m [Application][setup] [47m[30m debug  [0m[0m [37mloadFiles, path:config/application.js[0m
+[37m2020-03-05T07:24:13.283Z[0m [Application][setup] [47m[30m debug  [0m[0m [37mloadFiles, path:config/databases.js[0m
+[37m2020-03-05T07:24:13.283Z[0m [Application][setup] [47m[30m debug  [0m[0m [37mloadFiles, path:config/log.js[0m
+[37m2020-03-05T07:24:13.283Z[0m [Application][setup] [47m[30m debug  [0m[0m [37mloadFiles, path:config/session.js[0m
+[32m[1m2020-03-05T07:24:13.283Z[0m[0m [Application][setup] [42m[34m info   [0m[0m [32m[1mLoading places is complete[0m[0m
+[32m[1m2020-03-05T07:24:13.283Z[0m[0m [Application][setup] [42m[34m info   [0m[0m [32m[1mLoading places is complete[0m[0m
+[32m[1m2020-03-05T07:24:13.283Z[0m[0m [Application][setup] [42m[34m info   [0m[0m [32m[1mOpening logger...[0m[0m
+[32m[1m2020-03-05T07:24:13.283Z[0m[0m [Application][setup] [42m[34m info   [0m[0m [32m[1mOpening logger is complete[0m[0m
+[32m[1m2020-03-05T07:24:13.283Z[0m[0m [Application][setup] [42m[34m info   [0m[0m [32m[1mCreating app impl(express)...[0m[0m
+[32m[1m2020-03-05T07:24:13.284Z[0m[0m [Application][setup] [42m[34m info   [0m[0m [32m[1mSession secret is set, initializing session MW...[0m[0m
+[32m[1m2020-03-05T07:24:13.284Z[0m[0m [Application][setup] [42m[34m info   [0m[0m [32m[1msession key:app1secret[0m[0m
+[32m[1m2020-03-05T07:24:13.284Z[0m[0m [Application][setup] [42m[34m info   [0m[0m [32m[1msession age:86400000[0m[0m
+[32m[1m2020-03-05T07:24:13.284Z[0m[0m [Application][setup] [42m[34m info   [0m[0m [32m[1mSession secret is set, initializing session MW is complete[0m[0m
+[32m[1m2020-03-05T07:24:13.284Z[0m[0m [Application][setup] [42m[34m info   [0m[0m [32m[1mCreating app impl(express) is complete[0m[0m
+[32m[1m2020-03-05T07:24:13.284Z[0m[0m [Application][setup] [42m[34m info   [0m[0m [32m[1mLoading model...[0m[0m
+[32m[1m2020-03-05T07:24:13.284Z[0m[0m [Application][setup] [42m[34m info   [0m[0m [32m[1mLoading model is complete[0m[0m
+[32m[1m2020-03-05T07:24:13.284Z[0m[0m [Application][setup] [42m[34m info   [0m[0m [32m[1mLoading routes...[0m[0m
+[32m[1m2020-03-05T07:24:13.284Z[0m[0m [42m[34m info   [0m[0m [32m[1mCollected routes:[0m[0m
+[32m[1m2020-03-05T07:24:13.284Z[0m[0m [42m[34m info   [0m[0m [32m[1m    method:GET    , access:SET, rules:   , url:/[0m[0m
+[32m[1m2020-03-05T07:24:13.285Z[0m[0m [42m[34m info   [0m[0m [32m[1m    method:GET    , access:SET, rules:   , url:/hello[0m[0m
+[32m[1m2020-03-05T07:24:13.285Z[0m[0m [42m[34m info   [0m[0m [32m[1m    method:GET    , access:SET, rules:   , url:/news[0m[0m
+[32m[1m2020-03-05T07:24:13.285Z[0m[0m [Application][setup] [42m[34m info   [0m[0m [32m[1mLoading routes is complete[0m[0m
+[32m[1m2020-03-05T07:24:13.285Z[0m[0m [Application][setup] [42m[34m info   [0m[0m [32m[1mStart listening port 3001[0m[0m
+[32m[1m2020-03-05T07:24:13.285Z[0m[0m [Application][setup] [42m[34m info   [0m[0m [32m[1mOpening application is complete[0m[0m
+      ✓ #Application.open, 3rd time
+[32m[1m2020-03-05T07:24:13.285Z[0m[0m [Application][teardown] [42m[34m info   [0m[0m [32m[1mClosing...[0m[0m
+[32m[1m2020-03-05T07:24:13.285Z[0m[0m [Application][teardown] [42m[34m info   [0m[0m [32m[1mStop listening...[0m[0m
+[32m[1m2020-03-05T07:24:13.285Z[0m[0m [Application][teardown] [42m[34m info   [0m[0m [32m[1mStop listening port 3001[0m[0m
+[32m[1m2020-03-05T07:24:13.285Z[0m[0m [Application][teardown] [42m[34m info   [0m[0m [32m[1mUnloading routes...[0m[0m
+[32m[1m2020-03-05T07:24:13.286Z[0m[0m [Application][teardown] [42m[34m info   [0m[0m [32m[1mUnloading routes is complete[0m[0m
+[32m[1m2020-03-05T07:24:13.286Z[0m[0m [Application][teardown] [42m[34m info   [0m[0m [32m[1mUnloading model...[0m[0m
+[32m[1m2020-03-05T07:24:13.286Z[0m[0m [Application][teardown] [42m[34m info   [0m[0m [32m[1mUnloading model is complete[0m[0m
+[32m[1m2020-03-05T07:24:13.286Z[0m[0m [Application][teardown] [42m[34m info   [0m[0m [32m[1mDestroying app impl(express)...[0m[0m
+[32m[1m2020-03-05T07:24:13.286Z[0m[0m [Application][teardown] [42m[34m info   [0m[0m [32m[1mDestroying app impl(express)...[0m[0m
+[32m[1m2020-03-05T07:24:13.286Z[0m[0m [Application][teardown] [42m[34m info   [0m[0m [32m[1mClosing logger...[0m[0m
+[32m[1m2020-03-05T07:24:13.286Z[0m[0m [Application][teardown] [42m[34m info   [0m[0m [32m[1mClosing logger is complete[0m[0m
+[32m[1m2020-03-05T07:24:13.286Z[0m[0m [Application][teardown] [42m[34m info   [0m[0m [32m[1mClosing is complete[0m[0m
+      ✓ #Application.close
+
+
+  16 passing (157ms)
+

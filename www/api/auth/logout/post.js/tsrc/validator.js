@@ -12,9 +12,10 @@ describe('www.api.auth.logout.validator', function() {
         api = {};
         api.lib = {};
         api.lib.Md5 = re('lib/Md5')(api);
+        api.lib.makeId = re('lib/makeId')(api);
+        api.lib.types = re('lib/types')(api);
         api.model = {};
         api.model.types = re('model/types')(api);
-        api.model.makeId = re('model/makeId')(api);
         api.model.User = re('model/User')(api);
         api.model.Deployment = re('model/Deployment')(api);
 

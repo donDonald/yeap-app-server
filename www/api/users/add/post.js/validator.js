@@ -14,10 +14,10 @@ module.exports = function(api) {
                 check('cat').matches(api.model.types.Cat),
                 check('cat').exists().isEmpty(),
             ]),
-            check('displayName').matches(api.model.types.name),
-            check('thumbnail').matches(api.model.types.name),
+            check('displayName').matches(api.lib.types.Name),
+            check('thumbnail').matches(api.lib.types.Name),
             check('authProviderName').matches(api.model.types.AuthProviderName),
-            check('authProviderId').matches(api.model.types.name),
+            check('authProviderId').matches(api.lib.types.Name),
             check('authProviderRawString').exists(), // PTFIXME, what validation shall be heree to prevent sql injection and so on?
         ];
     }

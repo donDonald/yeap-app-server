@@ -1,1 +1,1 @@
-../../../../../src/lib/validators/list.js
+../../../../../src/model/validators/list.js

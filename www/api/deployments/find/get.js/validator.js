@@ -1,1 +1,1 @@
-../../../../../src/lib/validators/find.js
+../../../../../src/model/validators/find.js

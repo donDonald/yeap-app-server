@@ -1,1 +1,1 @@
-../../../../../src/lib/validators/did.js
+../../../../../src/model/validators/did.js

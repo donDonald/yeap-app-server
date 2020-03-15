@@ -47,6 +47,22 @@ describe('www.api.logins.add.Post', ()=>{
         Post = re('lib/testTools/express/Post')(api);
     });
 
+    before((done)=>{
+        dbProps.database = createDbName('1');
+        api.lib.db.tools.create(
+            masterDbProps,
+            dbProps.database,
+            (err)=>{
+                assert(!err, err);
+                done();
+            }
+        );
+    });
+
+    after((done)=>{
+        api.lib.db.DbPool.close(0, model, done);
+    });
+
     const addUser = function(users, name, cb) {
         users.add(
             {
@@ -92,19 +108,6 @@ describe('www.api.logins.add.Post', ()=>{
 
     let model, router, method;
     describe('Setup', ()=>{
-
-        const dbName = createDbName('1');
-        it('Create db ' + dbName, (done)=>{
-            dbProps.database = dbName;
-            api.lib.db.tools.create(
-                masterDbProps,
-                dbProps.database,
-                (err)=>{
-                    assert(!err, err);
-                    done();
-                }
-            );
-        });
 
         it('Create model', (done)=>{
             api.model.factory.createModel(dbProps, (err, m)=>{

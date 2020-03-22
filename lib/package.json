@@ -1,14 +1,15 @@
 {
-  "name": "auth-server",
+  "name": "lib",
   "version": "1.0.0",
   "description": "",
-  "main": "server.js",
+  "main": "exports.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
+    "test": "mocha 'tsrc/test.js' --timeout 10000",
+    "start": "echo \"Error: no start specified\" && exit 1"
   },
   "keywords": [
     "server",
+    "http",
     "library",
     "app",
     "fw",

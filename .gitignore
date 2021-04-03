@@ -1,0 +1,12 @@
+# node packages
+node_modules/
+
+# Log files
+*.log
+
+# Vim sp files
+*.swp
+
+# Hidden files
+#.*
+

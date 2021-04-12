@@ -1,5 +1,5 @@
 {
-  "name": "yeap-web-server",
+  "name": "yeap-app-server",
   "version": "1.0.0",
   "description": "",
   "main": "lib/index.js",
@@ -8,14 +8,15 @@
     "start": "echo \"Error: no start specified\" && exit 1"
   },
   "keywords": [
-    "yeap-web-server",
+    "yeap-app-server",
     "yeap",
     "server",
     "http",
     "library",
     "app",
     "fw",
-    "framework"
+    "framework",
+    "express"
   ],
   "author": "Pavel Taranov",
   "license": "MIT",

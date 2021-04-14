@@ -32,7 +32,7 @@ npm install
 npm test
 ```
 
-# Clone and run [example server](https://github.com/donDonald/yeap-web-server)
+# Clone and run [example server](https://github.com/donDonald/yeap-app-server-example)
 ```
 git clone https://github.com/donDonald/yeap-app-server-example.git
 cd yeap-app-server-example

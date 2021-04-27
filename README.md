@@ -27,15 +27,15 @@ docker-compose up -d
 ```
 ### Run unit-test
 ```
-cd yeap-app-server
+cd yeap_app_server
 npm install
 npm test
 ```
 
-# Clone and run [example server](https://github.com/donDonald/yeap-app-server-example)
+# Clone and run [example server](https://github.com/donDonald/yeap_app_server_example)
 ```
-git clone https://github.com/donDonald/yeap-app-server-example.git
-cd yeap-app-server-example
+git clone https://github.com/donDonald/yeap_app_server_example.git
+cd yeap_app_server-example
 npm install
 npm start
 ```

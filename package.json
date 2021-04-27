@@ -1,5 +1,5 @@
 {
-  "name": "yeap-app-server",
+  "name": "yeap_app_server",
   "version": "1.0.0",
   "description": "",
   "main": "lib/index.js",
@@ -8,7 +8,7 @@
     "start": "echo \"Error: no start specified\" && exit 1"
   },
   "keywords": [
-    "yeap-app-server",
+    "yeap_app_server",
     "yeap",
     "server",
     "http",
@@ -30,6 +30,6 @@
     "passport": "^0.4.1",
     "pg": "^8.5.1",
     "request": "^2.88.2",
-    "yeap_lib": "git+http://gitlab/ptaranov/yeap_lib.git"
+    "yeap_lib": "git+http://github.com/donDonald/yeap_lib.git"
   }
 }

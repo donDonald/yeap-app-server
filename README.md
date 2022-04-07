@@ -1,17 +1,18 @@
 <div align="center">
-
-[![license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/metarhia/impress/blob/master/LICENSE)
-
+    <img src="images/license-MIT-blue.svg">
 </div>
 
-## Description
+# Intro
 Very simple application server for stateless services.
 
 **Weak sides**: No support for stateful API.
 
 **Strong sides**: Very simple, built on top express, well unit-tested.
 
-## Quick start
+---
+
+
+# Quick start
 
 ### Install mocha test framework
 ```

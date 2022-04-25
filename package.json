@@ -21,7 +21,6 @@
   "author": "Pavel Taranov",
   "license": "MIT",
   "dependencies": {
-    "concolor": "^1.0.0",
     "cookie-session": "^1.4.0",
     "express": "^4.17.1",
     "express-validator": "^6.10.0",
@@ -30,6 +29,8 @@
     "passport": "^0.4.1",
     "pg": "^8.5.1",
     "request": "^2.88.2",
+    "yeap_logger": "git+http://github.com/donDonald/yeap_logger.git",
+    "yeap_db": "git+http://github.com/donDonald/yeap_db.git",
     "yeap_lib": "git+http://github.com/donDonald/yeap_lib.git"
   }
 }

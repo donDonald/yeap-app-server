@@ -3,7 +3,7 @@
 </div>
 
 # Intro
-Very simple application server for stateless services.
+Very simple application server framework for stateless services.
 
 **Weak sides**: No support for stateful API.
 

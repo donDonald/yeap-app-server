@@ -31,7 +31,6 @@
     "pg": "^8.5.1",
     "request": "^2.88.2",
     "yeap_db": "git+http://github.com/donDonald/yeap_db.git",
-    "yeap_lib": "git+http://github.com/donDonald/yeap_lib.git",
     "yeap_logger": "git+http://github.com/donDonald/yeap_logger.git"
   }
 }

@@ -4,7 +4,7 @@
   "description": "",
   "main": "lib/index.js",
   "scripts": {
-    "test": "mocha 'lib/tsrc/test.js' --timeout 10000",
+    "test": "mocha 'lib/tsrc/test.js' --timeout 20000",
     "start": "echo \"Error: no start specified\" && exit 1"
   },
   "keywords": [

@@ -30,7 +30,7 @@
     "passport": "^0.4.1",
     "pg": "^8.5.1",
     "request": "^2.88.2",
-    "yeap_types": "git+http://github.com/donDonald/yeap_types.git#1a61085a73fd5f27424e45469a67bb3967614164",
+    "yeap_types": "git+http://github.com/donDonald/yeap_types.git#659763bc04f5e669b259dada1a1dfb6b55fec382",
     "yeap_db": "git+http://github.com/donDonald/yeap_db.git#338c960d96be2dcb1208055d08997571031b2d5e",
     "yeap_logger": "git+http://github.com/donDonald/yeap_logger.git#472c0895fe0f396600f3fa68259c04d50bcc7ca2"
   }

@@ -31,7 +31,9 @@
     "request": "^2.88.2",
     "yeap_types": "git+http://github.com/donDonald/yeap_types.git#HEAD",
     "yeap_db": "git+http://github.com/donDonald/yeap_db.git#HEAD",
-    "yeap_logger": "git+http://github.com/donDonald/yeap_logger.git#HEAD",
+    "yeap_logger": "git+http://github.com/donDonald/yeap_logger.git#HEAD"
+  },
+  "devDependencies": {
     "yeap_dev_tools": "git+http://github.com/donDonald/yeap_dev_tools.git#HEAD"
   }
 }

@@ -29,7 +29,7 @@
     "fast-rbac": "^1.3.0",
     "passport": "^0.4.1",
     "request": "^2.88.2",
-    "metavm": "^1.2.1",
+    "metavm": "git+http://github.com/donDonald/metavm.git#HEAD",
     "yeap_types": "git+http://github.com/donDonald/yeap_types.git#HEAD",
     "yeap_db": "git+http://github.com/donDonald/yeap_db.git#HEAD",
     "yeap_logger": "git+http://github.com/donDonald/yeap_logger.git#HEAD"
